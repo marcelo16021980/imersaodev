@@ -1,0 +1,38 @@
+footer {
+    background:linear-gradient(#f2f2f2 ,#6f6d6d);
+    padding: 10px;
+    text-align: center;
+}
+
+.container__rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around ;
+    align-items: center
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+}
+.contato{
+display: flex;
+flex-direction: column;
+padding: 0.8em;
+}
+.logotipo__lista{
+    list-style: none;
+}
+.logotipo__lista-item{
+    padding: 0.8em;
+}
+.rodape__imagem{
+    width: 3em;
+    height: 3em;
+}

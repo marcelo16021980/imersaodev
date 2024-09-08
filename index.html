@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImersaoDev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/ciencia.png" alt="logotipo na forma de atomo" class="logo__imagem">
+        <nav>
+            <a class="cabecalho__container-link" href="#home">Home</a>
+            <a class="cabecalho__container-link" href="#about">Sobre</a>
+            <a class="cabecalho__container-link" href="#contact">Contato</a>
+        </nav>
+    </header>
+    <section class="principal">
+        <h1>QuimicaNow</h1>
+        <div class="barra__busca">
+            <input id="campo__pesquisa" type="text" placeholder="Qual seria sua dúvida?">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+    <section class="Quimica__organica-resultado" id="resultados__pesquisa">
+            <!-- <div class="quimica__organica">
+            <a class="Quimica__organica-titulo" target="_blank" href="#">Quimica Organica</a>
+            <p>A química orgânica é o ramo da química que se dedica ao estudo dos compostos de carbono e suas reações. Esses compostos formam a base de toda a vida na Terra e estão presentes em uma infinidade de substâncias, desde os alimentos que consumimos até os materiais que utilizamos no dia a dia</p>
+            <a href="https://pt.wikipedia.org/wiki/Qu%C3%ADmica_org%C3%A2nica" target="_blank">Saiba mais</a>
+            </div>
+            <div class="quimica__organica">
+                <h3>Química Inorgânica</h3>
+                <p>A química inorgânica estuda a composição, estrutura e reações de compostos inorgânicos.</p>
+                <a href="https://pt.wikipedia.org/wiki/Qu%C3%ADmica_inorg%C3%A2nica" target="_blank">Saiba mais</a>
+            </div>
+        
+            <div class="quimica__organica">
+                <h3>Química Analítica</h3>
+                <p>A química analítica desenvolve métodos e instrumentos para separar, identificar e quantificar a matéria.</p>
+                <a href="https://pt.wikipedia.org/wiki/Qu%C3%ADmica_anal%C3ADtica" target="_blank">Saiba mais</a>
+            </div> -->
+        </section>
+    </div>
+    <footer>
+        <div class="container__rodape">
+            <div class="Logotipo">
+                <ul class="logotipo__lista">
+                    <li class="logotipo__lista-item"><img class="rodape__imagem" src="img/ciencia.png" alt="Seu Logo"></li>
+                    <li class="logotipo__lista-item"> &copy; 2024 Todos os direitos reservados.</li>
+                </ul>
+            </div>
+            <div class="contato">
+                <a href="mailto:seuemail@exemplo.com">quimicanow@escola.br</a> | 
+                <a href="https://maps.google.com/?q=seu+endereco">35, Greengate Street. 89.900-123</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="contato">Fale Conosco</a>
+            </div>
+        </div>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
